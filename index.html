@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website Tutorial | Meteora</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hide">
+      <nav>
+        <img src="./images/logo.png" alt="Travelo Logo" class="logo" />
+        <ul>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#">Sign up</a>
+          </li>
+          <li>
+            <a class="search" href="#"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </li>
+          <li class="hamburger">
+            <a href="#">
+              <div class="bar"></div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="vignette hide"></div>
+      <img
+        src="./images/mainBg.png"
+        class="parallax bg-img"
+        data-speedx="0.3"
+        data-speedy=" 0.38"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="-200"
+      />
+      <img
+        src="./images/mountainsBg2.png"
+        class="parallax mountain-1"
+        data-speedx="0.16"
+        data-speedy=" 0.2"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="850"
+      />
+      <img
+        src="./images/bgMountain.png"
+        class="parallax mountain-2"
+        data-speedx="0.12"
+        data-speedx="0.12"
+        data-speedy=" 0.1"
+        data-speedz="0"
+        data-rotation="0"
+        data-distance="1200"
+      />
+      <img
+        src="./images/monasterio3.png"
+        class="parallax monastery-3"
+        data-speedx="0.1"
+        data-speedy=" 0.03"
+        data-speedz="0.1"
+        data-rotation="0.09"
+        data-distance="1400"
+      />
+      <div
+        class="text parallax"
+        data-speedx="0.07"
+        data-speedy=" 0.07"
+        data-speedz="0"
+        data-rotation="0.11"
+      >
+        <h1>Meteora</h1>
+        <h2>By Daniela Pinzon</h2>
+      </div>
+      <img
+        src="./images/monasterio4.png"
+        class="parallax monastery-4"
+        data-speedx="0.059"
+        data-speedy=" 0.024"
+        data-speedz="0.35"
+        data-rotation="0.14"
+        data-distance="1600"
+      />
+      <img
+        src="./images/monasterio2.png"
+        class="parallax monastery-2"
+        data-speedx="0.04"
+        data-speedy=" 0.1"
+        data-speedz="0.32"
+        data-rotation="0.05"
+        data-distance="1800"
+      />
+      <img
+        src="./images/monasterio5.png"
+        class="parallax monastery-5"
+        data-speedx="0.03"
+        data-speedy=" 0.013"
+        data-speedz="0.42"
+        data-rotation="0.15"
+        data-distance="2000"
+      />
+      <img
+        src="./images/monasterio1.png"
+        class="parallax monastery-1"
+        data-speedx="0.027"
+        data-speedy=" 0.018"
+        data-speedz="0.53"
+        data-rotation="0.2"
+        data-distance="3000"
+      />
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
