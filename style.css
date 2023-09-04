@@ -148,7 +148,7 @@ main {
   position: absolute;
   z-index: 4;
   width: 37.5%;
-  top: 56.91%;
+  top: 59%;
   left: 43.75%;
 }
 
@@ -189,7 +189,7 @@ main {
   position: absolute;
   z-index: 7;
   width: 20.83%;
-  top: 19.31%;
+  top: 21%;
   left: 93.75%;
 }
 
@@ -213,7 +213,7 @@ main {
   position: absolute;
   z-index: 6;
   width: 53.47%;
-  top: 70.06%;
+  top: 75.06%;
   left: 23.26%;
 }
 
@@ -241,7 +241,7 @@ main {
   }
 }
 
-@media (max-width: 725px) {
+@media (max-width: 1165px) {
   .text h1 {
     font-size: 5rem;
     line-height: 1.1;
@@ -277,6 +277,40 @@ main {
   .hamburger a {
     height: 30px;
     width: 30px;
+  }
+
+  .bg-img {
+    width: initial;
+    height: 222.224%;
+  }
+
+  .mountain-1 {
+    width: initial;
+    height: 98.552%;
+  }
+  .mountain-2 {
+    width: initial;
+    height: 80%;
+  }
+  .monastery-3 {
+    width: initial;
+    height: 85%;
+  }
+  .monastery-4 {
+    width: 31.83%;
+    height: 30%;
+  }
+  .monastery-2 {
+    width: initial;
+    height: 122.224%;
+  }
+  .monastery-5 {
+    width: 79.9%;
+    height: 37.672%;
+  }
+  .monastery-1 {
+    width: initial;
+    height: 75.552%;
   }
 }
 

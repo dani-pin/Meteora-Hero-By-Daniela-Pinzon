@@ -32,7 +32,7 @@ update(0);
 
 window.addEventListener("mousemove", (e) => {
   if (timeline.isActive()) return;
-  if (window.innerWidth <= 1250) return;
+  // if (window.innerWidth <= 1050) return;
 
   xValue = e.clientX - window.innerWidth / 2;
   yValue = e.clientY - window.innerHeight / 2;
@@ -43,11 +43,11 @@ window.addEventListener("mousemove", (e) => {
 });
 
 // Responsive Height
-if (window.innerWidth <= 1306) {
-  main.style.maxHeight = `${window.innerWidth * 0.56}px`;
-} else {
-  main.style.maxHeight = `${window.innerWidth * 1.6}px`;
-}
+// if (window.innerWidth >= 1058) {
+//   main.style.maxHeight = `${window.innerWidth * 0.6}px`;
+// } else {
+//   main.style.maxHeight = `${window.innerWidth * 1.6}px`;
+// }
 
 // GSAP Animation
 let timeline = gsap.timeline();
