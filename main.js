@@ -32,7 +32,8 @@ update(0);
 
 window.addEventListener("mousemove", (e) => {
   if (timeline.isActive()) return;
-  // if (window.innerWidth <= 1050) return;
+  //No se pueden mover las imagenes cuando pasa el mouse, cuando la pantalla es menor o igual a 1125
+  if (window.innerWidth <= 1125) return;
 
   xValue = e.clientX - window.innerWidth / 2;
   yValue = e.clientY - window.innerHeight / 2;

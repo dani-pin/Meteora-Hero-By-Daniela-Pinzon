@@ -156,7 +156,7 @@ main {
   position: absolute;
   z-index: 5;
   top: calc(50% - 35px);
-  left: calc(50% - 60px);
+  left: calc(50% - 25px);
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -189,7 +189,7 @@ main {
   position: absolute;
   z-index: 7;
   width: 20.83%;
-  top: 21%;
+  top: 14%;
   left: 93.75%;
 }
 
@@ -241,7 +241,7 @@ main {
   }
 }
 
-@media (max-width: 1165px) {
+@media (max-width: 1125px) {
   .text h1 {
     font-size: 5rem;
     line-height: 1.1;
@@ -294,6 +294,59 @@ main {
   }
   .monastery-3 {
     width: initial;
+    height: 105%;
+  }
+  .monastery-4 {
+    width: 21.83%;
+    height: 30%;
+    top: 20%;
+    left: 93.75%;
+  }
+  .monastery-2 {
+    width: initial;
+    height: 102.224%;
+  }
+  .monastery-5 {
+    width: 49.9%;
+    height: 37.672%;
+  }
+  .monastery-1 {
+    width: initial;
+    height: 85.552%;
+  }
+}
+
+@media (max-width: 845px) {
+  .monastery-4 {
+    width: 17.83%;
+    height: 30%;
+    top: 20%;
+    left: 95.75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .text h1 {
+    font-size: 3.3rem;
+  }
+  .text h2 {
+    font-size: 1.1rem;
+  }
+  .bg-img {
+    width: initial;
+    height: 222.224%;
+  }
+
+  .mountain-1 {
+    width: initial;
+    height: 98.552%;
+  }
+  .mountain-2 {
+    width: initial;
+    height: 80%;
+  }
+  .monastery-3 {
+    width: initial;
     height: 85%;
   }
   .monastery-4 {
@@ -310,15 +363,61 @@ main {
   }
   .monastery-1 {
     width: initial;
-    height: 75.552%;
+    height: 85.552%;
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 530px) {
+  .text {
+    left: calc(50% - 10px);
+  }
   .text h1 {
-    font-size: 3.3rem;
+    font-size: 2.9rem;
   }
   .text h2 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+  }
+
+  .bg-img {
+    width: initial;
+    height: 142.224%;
+  }
+
+  .mountain-1 {
+    width: initial;
+    height: 98.552%;
+    top: 68.68%;
+  }
+  .mountain-2 {
+    width: initial;
+    height: 96%;
+  }
+  .monastery-3 {
+    width: initial;
+    height: 45%;
+    top: 58%;
+    left: 39%;
+  }
+  .monastery-4 {
+    width: 28.83%;
+    height: 23%;
+    top: 45%;
+    left: 93.75%;
+  }
+  .monastery-2 {
+    width: initial;
+    height: 76.224%;
+    top: 70.05%;
+    left: 68.24%;
+  }
+  .monastery-5 {
+    width: 79.9%;
+    height: 26.672%;
+    top: 87%;
+  }
+  .monastery-1 {
+    width: initial;
+    height: 41.552%;
+    top: 80.06%;
   }
 }
